@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  background-color: black;
+}
+.hidden {
+  display: none;
+}
+#start {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  font-size: 1.5rem;
+  background-color: yellow;
+  border-radius: 10px;
+  margin: 3rem 0rem;
+  transition: all 0.2 ease;
+}
+button#start:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+#myCanvas {
+  background-color: black;
+  border: 10px solid lightpink;
+}
+
+#rule {
+  color: white;
+  font-size: 1.15rem;
+  width: 300px;
+  height: 100px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
