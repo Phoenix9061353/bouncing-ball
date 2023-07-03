@@ -13,16 +13,17 @@ body {
 .hidden {
   display: none;
 }
-#start {
+button {
+  display: block;
   padding: 0.25rem 0.5rem;
   border: none;
   font-size: 1.5rem;
   background-color: yellow;
   border-radius: 10px;
   margin: 3rem 0rem;
-  transition: all 0.2 ease;
+  transition: all 0.2s;
 }
-button#start:hover {
+button:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
